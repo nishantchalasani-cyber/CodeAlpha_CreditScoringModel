@@ -1,0 +1,93 @@
+{
+    "best_model_name": "Logistic Regression",
+    "metrics": {
+        "Logistic Regression": {
+            "Accuracy": 0.7175,
+            "Precision": 0.3876967095851216,
+            "Recall": 0.6642156862745098,
+            "F1 Score": 0.4896115627822945,
+            "ROC-AUC": 0.7821814341314415,
+            "Confusion Matrix": [
+                [
+                    1164,
+                    428
+                ],
+                [
+                    137,
+                    271
+                ]
+            ]
+        },
+        "Decision Tree": {
+            "Accuracy": 0.759,
+            "Precision": 0.427734375,
+            "Recall": 0.5367647058823529,
+            "F1 Score": 0.47608695652173916,
+            "ROC-AUC": 0.743550011084836,
+            "Confusion Matrix": [
+                [
+                    1299,
+                    293
+                ],
+                [
+                    189,
+                    219
+                ]
+            ]
+        },
+        "Random Forest": {
+            "Accuracy": 0.8175,
+            "Precision": 0.6272189349112426,
+            "Recall": 0.25980392156862747,
+            "F1 Score": 0.36741767764298094,
+            "ROC-AUC": 0.769218334318652,
+            "Confusion Matrix": [
+                [
+                    1529,
+                    63
+                ],
+                [
+                    302,
+                    106
+                ]
+            ]
+        },
+        "XGBoost": {
+            "Accuracy": 0.8095,
+            "Precision": 0.5633802816901409,
+            "Recall": 0.29411764705882354,
+            "F1 Score": 0.3864734299516908,
+            "ROC-AUC": 0.7531560991230664,
+            "Confusion Matrix": [
+                [
+                    1499,
+                    93
+                ],
+                [
+                    288,
+                    120
+                ]
+            ]
+        }
+    },
+    "feature_names": [
+        "person_age",
+        "person_income",
+        "person_emp_length",
+        "loan_amnt",
+        "loan_int_rate",
+        "cb_person_cred_hist_length",
+        "loan_percent_income",
+        "cb_person_default_on_file",
+        "person_home_ownership_MORTGAGE",
+        "person_home_ownership_OTHER",
+        "person_home_ownership_OWN",
+        "person_home_ownership_RENT",
+        "loan_intent_DEBTCONSOLIDATION",
+        "loan_intent_EDUCATION",
+        "loan_intent_HOMEIMPROVEMENT",
+        "loan_intent_MEDICAL",
+        "loan_intent_PERSONAL",
+        "loan_intent_VENTURE"
+    ]
+}
