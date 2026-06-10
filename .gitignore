@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+
+# Model files
+*.pkl
+
+# Generated reports
+*.pdf
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
