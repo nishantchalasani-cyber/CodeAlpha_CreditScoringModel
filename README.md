@@ -303,3 +303,45 @@ Developed as part of the **CodeAlpha Machine Learning Internship Program**.
 This project was developed for educational and portfolio purposes only.
 
 It is not intended for real-world lending decisions, banking operations, or financial advisory services.
+
+---
+
+## Screenshots
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+The dashboard provides an overview of the credit portfolio, including applicant statistics, average income, default rate, and machine learning model benchmark results.
+
+---
+
+### Credit Prediction Simulator
+
+![Credit Prediction](screenshots/credit_prediction.png)
+
+Users can enter applicant details such as income, loan amount, employment history, credit history, and CIBIL score to evaluate credit risk in real time.
+
+---
+
+### Analytics Dashboard
+
+![Analytics](screenshots/analytics.png)
+
+The analytics section provides portfolio insights through demographic distributions, debt-to-income analysis, feature importance rankings, and correlation visualizations.
+
+---
+
+### Credit Risk Evaluation Report
+
+![Credit Evaluation](screenshots/creditreport.png)
+
+The underwriting engine generates approval probabilities, credit scores, risk categories, and loan eligibility recommendations.
+
+---
+
+### PDF Assessment Report
+
+![PDF Report](screenshots/creditreportpdf.png)
+
+A professional PDF report is generated automatically, summarizing applicant details, risk assessment results, and underwriting recommendations.
